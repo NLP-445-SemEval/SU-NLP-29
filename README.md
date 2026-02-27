@@ -28,8 +28,21 @@ Each data point contains:
 pip install -r requirements.txt
 ```
 
+If specific versions of the libraries are needed, they are as follows:
+- torch 2.9.0+cu128
+- transformers 4.57.1
+- peft 0.18.0
+- scikit-learn 1.7.2
+- numpy 2.2.6
+- pandas 2.3.3
+- scipy 1.16.3
+- matplotlib 3.10.7
+- seaborn 0.13.2
+- tqdm 4.67.1
+- jupyter 5.9.1
+- sentencepiece 0.2.1
+
 ## Evaluation Metrics
 
 - **Spearman Correlation**: Correlation between predicted and human scores
 - **Accuracy Within Standard Deviation**: Percentage of predictions within 1 SD of human average
-
